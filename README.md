@@ -1,2 +1,2 @@
 # Monstre-de-Cookie
-Cookies
+A website that sells Monster sized Cookies
