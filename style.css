@@ -1,0 +1,131 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Jost, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #2B2220;
+  background: #F3E8D4;
+}
+
+h1, h2, h3, .brand {
+  font-family: "Bodoni Moda", Georgia, serif;
+  color: #3B2418;
+  margin: 0 0 10px;
+}
+
+h1 { font-size: 52px; line-height: 1.1; }
+h2 { font-size: 36px; text-align: center; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 12px 5%;
+  background: #3B2418;
+}
+
+header .brand { color: #FBF6EA; font-size: 24px; margin: 0; }
+nav a { color: #FBF6EA; margin-left: 18px; text-decoration: none; }
+nav a:hover { color: #F0B77A; }
+
+section { padding: 60px 5%; }
+.sand { background: #E9D6B6; }
+.center { text-align: center; max-width: 650px; margin: 0 auto 30px; }
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  background: #E9D6B6;
+}
+
+.hero div { max-width: 520px; }
+.hero img { max-width: 100%; height: auto; }
+
+.button {
+  display: inline-block;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  background: #B85C1E;
+  color: #FBF6EA;
+  font-family: inherit;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover { background: #3B2418; }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  width: 280px;
+  padding: 20px;
+  text-align: center;
+  background: #FBF6EA;
+  border: 3px solid #3B2418;
+  border-radius: 25px;
+}
+
+.price {
+  font-family: "Bodoni Moda", Georgia, serif;
+  font-size: 24px;
+  color: #B85C1E;
+  margin: 0;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto 15px;
+  max-width: 100%;
+  height: auto;
+}
+
+form {
+  display: grid;
+  gap: 14px;
+  max-width: 560px;
+  margin: 30px auto 0;
+  padding: 25px;
+  background: #FBF6EA;
+  border: 3px solid #3B2418;
+  border-radius: 25px;
+}
+
+label { display: grid; gap: 4px; font-weight: 500; }
+
+input, select, textarea {
+  padding: 10px;
+  border: 2px solid #3B2418;
+  border-radius: 10px;
+  background: #F3E8D4;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+footer {
+  padding: 30px 5%;
+  text-align: center;
+  background: #3B2418;
+  color: #FBF6EA;
+}
+
+footer p { margin: 4px 0; }
+
+@media (max-width: 600px) {
+  h1 { font-size: 38px; }
+  nav a { margin: 0 12px 0 0; }
+}

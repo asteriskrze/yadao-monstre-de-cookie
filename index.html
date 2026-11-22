@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monstre de Cookie</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/monstre-logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h2 class="brand">Monstre de Cookie</h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#flavors">Flavors</a>
+      <a href="#boxes">Boxes</a>
+      <a href="#about">About Us</a>
+      <a href="#order">Order</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div>
+      <h1>Big bites. Monster flavors.</h1>
+      <p>Soft, chewy cookies baked fresh in small batches. Pick your flavors and send a pre-order for pick-up or delivery.</p>
+      <a class="button" href="#order">Order now</a>
+    </div>
+    <img src="images/monstre-logo.png" alt="Monstre de Cookie logo" width="320">
+  </section>
+
+  <section id="flavors">
+    <h2>Our flavors</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/choc.svg" alt="Classic chocolate chip cookie" width="150">
+        <h3>Classic Chocolate Chip</h3>
+        <p>Soft center, crisp edges, dark chocolate chunks.</p>
+        <p class="price">₱65</p>
+      </div>
+      <div class="card">
+        <img src="images/dbl.svg" alt="Double chocolate cookie" width="150">
+        <h3>Double Chocolate</h3>
+        <p>Rich cocoa dough with white chocolate chips.</p>
+        <p class="price">₱70</p>
+      </div>
+      <div class="card">
+        <img src="images/red.svg" alt="Red velvet cookie" width="150">
+        <h3>Red Velvet</h3>
+        <p>Tangy red velvet dough with sweet white chips.</p>
+        <p class="price">₱75</p>
+      </div>
+      <div class="card">
+        <img src="images/cc.svg" alt="Cookies and cream cookie" width="150">
+        <h3>Cookies and Cream</h3>
+        <p>Vanilla dough packed with chocolate cookie crumbs.</p>
+        <p class="price">₱75</p>
+      </div>
+      <div class="card">
+        <img src="images/pb.svg" alt="Peanut butter cookie" width="150">
+        <h3>Peanut Butter</h3>
+        <p>Salty-sweet and chewy, with peanut butter chips.</p>
+        <p class="price">₱70</p>
+      </div>
+      <div class="card">
+        <img src="images/mon.svg" alt="Matcha monster pick cookie" width="150">
+        <h3>Monster’s Pick</h3>
+        <p>A surprise flavor that changes every month.</p>
+        <p class="price">₱75</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="boxes" class="sand">
+    <h2>Boxes for sharing</h2>
+    <p class="center">Sample prices. Mix any flavors in any box.</p>
+    <div class="cards">
+      <div class="card">
+        <h3>Box of 6</h3>
+        <p>A treat for you and a few friends.</p>
+        <p class="price">₱360</p>
+      </div>
+      <div class="card">
+        <h3>Box of 12</h3>
+        <p>The classic gift box for birthdays and offices.</p>
+        <p class="price">₱680</p>
+      </div>
+      <div class="card">
+        <h3>Party box of 24</h3>
+        <p>Enough for classroom parties and big celebrations.</p>
+        <p class="price">₱1,300</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About us</h2>
+    <p class="center">Monstre de Cookie started with one oven and a very big appetite. We bake every order fresh, so each cookie is soft in the middle and a little crisp on the edges.</p>
+  </section>
+
+  <section id="order" class="sand">
+    <h2>Send your pre-order</h2>
+    <form>
+      <label>Name <input type="text" required></label>
+      <label>Contact number <input type="tel" required></label>
+      <label>Flavor or box
+        <select>
+          <option>Classic Chocolate Chip</option>
+          <option>Double Chocolate</option>
+          <option>Red Velvet</option>
+          <option>Cookies and Cream</option>
+          <option>Peanut Butter</option>
+          <option>Monster’s Pick</option>
+          <option>Box of 6</option>
+          <option>Box of 12</option>
+          <option>Party box of 24</option>
+        </select>
+      </label>
+      <label>Quantity <input type="number" min="1" value="1"></label>
+      <label>Pick-up or delivery
+        <select>
+          <option>Pick-up</option>
+          <option>Delivery</option>
+        </select>
+      </label>
+      <label>Date needed <input type="date" required></label>
+      <label>Notes <textarea rows="3"></textarea></label>
+      <button class="button" type="submit">Send pre-order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p><strong>Monstre de Cookie</strong></p>
+    <p>Big bites. Monster flavors.</p>
+    <p>FT-Lab Activity 2 school project. Fictional business.</p>
+  </footer>
+
+</body>
+</html>
