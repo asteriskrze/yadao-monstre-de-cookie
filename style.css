@@ -15,14 +15,22 @@ h1, h2, h3, .brand {
   margin: 0 0 10px;
 }
 
-h1 { font-size: 52px; line-height: 1.1; }
-h2 { font-size: 36px; text-align: center; }
+h1 { 
+  font-size: 52px; 
+  line-height: 1.1; 
+}
+h2 { 
+  font-size: 36px; 
+  text-align: center; 
+}
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  position: sticky;
+  top: 0;
   gap: 10px;
   padding: 12px 5%;
   background: #3B2418;
@@ -34,7 +42,8 @@ header .brand {
   margin: 0; 
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;}
+  justify-content: center;
+}
   
 header {
   display: flex;
@@ -43,28 +52,45 @@ header {
   gap: 70px;
 }
   
-  
 
+nav a { color: #FBF6EA; 
+  margin-left: 18px; 
+  text-decoration: none; 
+  font-family: "Bodoni Moda", Georgia, serif; }
 
-nav a { color: #FBF6EA; margin-left: 18px; text-decoration: none; }
-nav a:hover { color: #F0B77A; }
+nav a:hover { 
+  color: #F0B77A; 
+}
 
-section { padding: 60px 5%; }
-.sand { background: #E9D6B6; }
-.center { text-align: center; max-width: 650px; margin: 0 auto 30px; }
+section { 
+  padding: 60px 5%; 
+}
+.sand { 
+  background: #E9D6B6; 
+}
+.center { 
+  text-align: center; 
+  max-width: 650px; 
+  margin: 0 auto 30px; 
+}
 
 .hero {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
+  align-items: center;
+  display: flex;
   background: #E9D6B6;
   height: 900px;
 }
 
-.hero div { max-width: 520px; }
-.hero img { max-width: 100%; height: auto; }
+.hero div { 
+  max-width: 70%; 
+}
+.hero img { 
+  max-width: 100%; 
+  height: auto; 
+}
 
 .button {
   display: inline-block;
@@ -79,7 +105,9 @@ section { padding: 60px 5%; }
   cursor: pointer;
 }
 
-.button:hover { background: #3B2418; }
+.button:hover { 
+  background: #3B2418; 
+}
 
 .cards {
   display: flex;
@@ -123,7 +151,11 @@ form {
   border-radius: 25px;
 }
 
-label { display: grid; gap: 4px; font-weight: 500; }
+label { 
+  display: grid;
+  gap: 4px; 
+  font-weight: 500; 
+}
 
 input, select, textarea {
   padding: 10px;
@@ -144,9 +176,7 @@ footer {
   color: #FBF6EA;
 }
 
-footer p { margin: 4px 0; }
-
-@media (max-width: 600px) {
-  h1 { font-size: 38px; }
-  nav a { margin: 0 12px 0 0; }
+footer p { 
+  margin: 4px 0; 
 }
+
